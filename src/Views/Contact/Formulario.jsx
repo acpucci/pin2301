@@ -3,7 +3,7 @@ import {useForm} from "react-hook-form";
 
 export const Formulario = () => {
 
-    const { register, formState: {errors}, handleSubmit } = useForm()
+    const { register, formState: {errors}, handleSubmit,} = useForm()
 
     const onSubmit = (data) => {
         console.log(data)
