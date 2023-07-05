@@ -1,11 +1,14 @@
 import React from "react";
+import './Components/style.scss'
 
 function Footer(){
     return(
-        <footer class="foot">
+        <footer className="foot">
             <h5>2023 © All rights reserved.</h5>
-            <div class="logo">
-                <a href=""><img class="imglogo" src="./imagenes/footer-logo.png" alt="logo"/></a>
+            <div className="logo">
+                <a href=""> 
+                <img src="./Components/Img/footer-logo.png" alt="logo" />
+                </a>
             </div>
         </footer>
     )

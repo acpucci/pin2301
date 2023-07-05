@@ -1,13 +1,15 @@
 import React from 'react'
+import './Components/style.scss'
+
 function Home() {
     return (
-        <div class="fondo">
+        <div className="fondo">
             <main>
-                <h2 class="title">Sed ut perspiciatis unde omnis iste natus</h2> 
+                <h2 className="title">Sed ut perspiciatis unde omnis iste natus</h2> 
                 <p>
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
                 </p>
-                <div class="btn-home">
+                <div className="btn-home">
                     <a href="#nosotros" class="btn">Read more</a>
                 </div>
             </main>

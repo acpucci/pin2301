@@ -3,7 +3,7 @@ import {useForm} from "react-hook-form";
 
 export const Formulario = () => {
 
-    const { register, formState: {errors}, handleSubmit,} = useForm()
+    const { register, formState: {errors}, handleSubmit } = useForm()
 
     const onSubmit = (data) => {
         console.log(data)
@@ -26,6 +26,7 @@ export const Formulario = () => {
                                 required: true,
                                 maxLength: 40
                                  })}
+                                
                             />
                             {errors.name?.type === 'required' && <p>El campo name es requerido</p>}
                             {errors.name?.type === 'maxLength' && <p>El campo name debe tener menos de
@@ -42,6 +43,7 @@ export const Formulario = () => {
                                 required: true,
                                 maxLength: 60
                                 })}
+                                
                             />
                             {errors.email?.type === 'required' && <p>El campo e-mail es requerido</p>}
                             {errors.email?.type === 'maxLength' && <p>El campo e-mail debe tener menos de
@@ -57,6 +59,7 @@ export const Formulario = () => {
                                 required: true,
                                 maxLength: 15
                                 })}
+                                
                             />
                             {errors.phone?.type === 'required' && <p>El campo phone es requerido</p>}
                             {errors.phone?.type === 'maxLength' && <p>El campo phone debe tener menos de
@@ -72,6 +75,7 @@ export const Formulario = () => {
                                 required: true,
                                 maxLength: 500
                                 })}
+                                
                             />
                             {errors.message?.type === 'required' && <p>El campo message es requerido</p>}
                             {errors.message?.type === 'maxLength' && <p>El campo message debe tener menos de

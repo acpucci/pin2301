@@ -1,0 +1,53 @@
+.fondo {
+    height: 100vh !important;
+    background-image: url(./Img/urn_aaid_sc_US_51795fcc-7085-48a6-bb10-26070be36c9d.png);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+}
+
+.title {
+    font: normal normal 600 48px/48px Poppins;
+    margin-top: 158px;
+    margin-left: 101px;
+    width: 554px;
+    height: 115px;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-left: 101px;
+    width: 343px;
+    height: 42px;
+    color: white;
+
+}
+
+.btn {
+    margin-top: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-home {
+    margin-top: 30px;
+    margin-left: 101px;
+    width: 144px;
+    height: 48px;
+    border-radius: 25px;
+    background-color: #E0752F;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+main .btn:hover {
+    background: none;
+}

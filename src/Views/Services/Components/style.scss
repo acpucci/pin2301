@@ -1,0 +1,21 @@
+.content{
+    height: 100vh;
+    background-image: url(./Img/section4-image.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.contact-wrapper{
+    background-image: linear-gradient(
+        to right,
+        #F2F4F1 0%,
+        #F2F4F1 75%,
+        #DCE1DA 75%,
+        #DCE1DA 100%
+    );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
