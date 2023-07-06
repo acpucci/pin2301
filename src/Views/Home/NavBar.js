@@ -2,11 +2,11 @@ import React from 'react';
 
 function NavBar(){
     return(
-        <header>
-            <div class="logo">
+        <header className="head">
+            <div className="logo">
                 <a href="/"><img src="Components/top-logo.svg" alt="logo" /></a>
             </div>
-            <nav class="navbar">
+            <nav className="navbar">
                 <a href="#inicio">Home</a>
                 <a href="#nosotros">About</a>
                 <a href="#productos">Products</a>

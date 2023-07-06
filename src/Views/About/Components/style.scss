@@ -1,28 +1,35 @@
 .about {
     background-color: white;
-    height: 505px;
+    top: 768px;
+    left: 0px;
+    width: 1366px;
+    height: 672px;
+
+    .borde{
+        border-left: 32px solid #E0752F;
+    }
+
+    .titlee{
+        font: normal normal 600 39px/45px Poppins;
+        margin-left: 299px;
+        margin-top: 167px;
+    
+    }
+    
+    .pad p{
+        margin-top: 44px;
+        margin-left: 299px;
+        width: 768px;
+        font: normal normal normal 16px/28px Roboto;
+        letter-spacing: 0.22px;
+        color: #343434;
+    }
+    
+    span{
+        color: #E0752F;
+    }
 }
 
-.border{
-    border-left: 32px solid #E0752F;
-}
 
-.titlee{
-    font: normal normal 600 39px/45px Poppins;
-    margin-left: 299px;
-    margin-top: 167px;
 
-}
 
-.pad p{
-    margin-top: 44px;
-    margin-left: 299px;
-    width: 768px;
-    font: normal normal normal 16px/28px Roboto;
-    letter-spacing: 0.22px;
-    color: #343434;
-}
-
-span{
-    color: #E0752F;
-}
